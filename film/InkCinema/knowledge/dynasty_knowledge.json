@@ -1,0 +1,35 @@
+{
+  "version": "1.0.0",
+  "dynasties": {
+    "唐": {
+      "aliases": ["唐代", "Tang"],
+      "period": "618-907",
+      "architecture": ["木构建筑", "歇山顶", "抬梁式", "瓦当纹饰简洁"],
+      "costume": ["圆领袍", "襦裙", "披帛", "儿童服饰偏素色"],
+      "color_preferences": ["赭石", "绢白", "黛青", "朱砂点缀"],
+      "plants": ["柳", "梅", "竹", "芦苇"],
+      "animals": ["鹅", "鹤", "马"],
+      "music": ["古琴", "箫", "埙"],
+      "environment": ["江南水乡", "驿道", "书院", "山寺"],
+      "authors": ["李白", "杜甫", "王维", "骆宾王", "白居易"]
+    },
+    "宋": {
+      "aliases": ["宋代", "Song"],
+      "period": "960-1279",
+      "architecture": ["硬山顶", "斗拱更细密", "园林空间分隔"],
+      "costume": ["褙子", "襕衫", "直领对襟", "文人便服"],
+      "color_preferences": ["米白", "墨黑", "松绿", "灰蓝"],
+      "plants": ["松", "竹", "荷", "梅"],
+      "animals": ["鹭", "鱼", "牛"],
+      "music": ["古琴", "笛", "箫"],
+      "environment": ["汴梁街市", "江南园林", "湖岸亭台"],
+      "authors": ["苏轼", "辛弃疾", "李清照", "欧阳修", "陆游"]
+    }
+  },
+  "keyword_hints": {
+    "鹅": {"dynasty_bias": "唐", "environment": "水岸", "confidence_boost": 0.08},
+    "月": {"dynasty_bias": "宋", "environment": "夜景", "confidence_boost": 0.04},
+    "竹": {"dynasty_bias": "宋", "environment": "竹林", "confidence_boost": 0.05},
+    "春": {"dynasty_bias": "唐", "environment": "春晨", "confidence_boost": 0.03}
+  }
+}

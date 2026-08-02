@@ -1,0 +1,301 @@
+{
+  "metadata": {
+    "id": "ic-咏鹅",
+    "version": "1.0.0",
+    "created_at": "2026-08-02T08:15:36+00:00",
+    "updated_at": "2026-08-02T08:15:36+00:00",
+    "language": "zh-CN",
+    "status": "in_progress"
+  },
+  "request": {
+    "title": "咏鹅",
+    "author": "骆宾王",
+    "dynasty": "唐",
+    "style": "Chinese Poetic Cinema",
+    "duration": 60,
+    "resolution": "1920x1080",
+    "aspect_ratio": "16:9",
+    "output_models": [
+      "kling",
+      "cogvideo",
+      "wan",
+      "veo"
+    ]
+  },
+  "poem": {
+    "title": "咏鹅",
+    "author": "骆宾王",
+    "dynasty": "唐",
+    "content": "鹅，鹅，鹅，曲项向天歌。白毛浮绿水，红掌拨清波。",
+    "keywords": [
+      "鹅",
+      "水",
+      "童趣",
+      "观察"
+    ]
+  },
+  "storyboard": {
+    "total_duration": 16,
+    "total_shots": 2,
+    "shots": [
+      {
+        "shot_id": "sh001",
+        "scene_id": "sc01",
+        "beat_id": "bt01",
+        "title": "镜头 1",
+        "purpose": "将诗句意象转化为可观察的画面",
+        "duration": 8,
+        "description": "鹅，鹅，鹅，曲项向天歌",
+        "camera": {
+          "shot_type": "Extreme Wide",
+          "lens": "35mm",
+          "height": "eye level",
+          "angle": "natural",
+          "motion": "Static"
+        },
+        "lighting": {
+          "time": "morning",
+          "temperature": "soft warm",
+          "contrast": "low"
+        },
+        "environment": {
+          "location": "江南水岸",
+          "weather": "light mist",
+          "season": "spring"
+        },
+        "composition": "negative space",
+        "emotion": "quiet wonder",
+        "continuity_notes": [
+          "角色服饰一致",
+          "雾气密度轻微变化"
+        ],
+        "visual_constraints": [
+          "避免现代物件",
+          "避免夸张动作"
+        ],
+        "priority": "normal"
+      },
+      {
+        "shot_id": "sh002",
+        "scene_id": "sc01",
+        "beat_id": "bt01",
+        "title": "镜头 2",
+        "purpose": "将诗句意象转化为可观察的画面",
+        "duration": 8,
+        "description": "白毛浮绿水，红掌拨清波",
+        "camera": {
+          "shot_type": "Wide",
+          "lens": "50mm",
+          "height": "eye level",
+          "angle": "natural",
+          "motion": "Slow Push"
+        },
+        "lighting": {
+          "time": "morning",
+          "temperature": "soft warm",
+          "contrast": "low"
+        },
+        "environment": {
+          "location": "江南水岸",
+          "weather": "light mist",
+          "season": "spring"
+        },
+        "composition": "negative space",
+        "emotion": "quiet wonder",
+        "continuity_notes": [
+          "角色服饰一致",
+          "雾气密度轻微变化"
+        ],
+        "visual_constraints": [
+          "避免现代物件",
+          "避免夸张动作"
+        ],
+        "priority": "normal"
+      }
+    ],
+    "confidence": 0.85
+  },
+  "visual": {
+    "style_profile": "song dynasty ink documentary",
+    "global_palette": [
+      "ink black",
+      "jade green",
+      "rice white",
+      "warm earth"
+    ],
+    "continuity": {
+      "character_ids": [
+        "char_main"
+      ],
+      "environment_ids": [
+        "env_riverside"
+      ],
+      "lighting_ids": [
+        "light_morning_soft"
+      ]
+    }
+  },
+  "audio": {
+    "global_audio_style": "quiet, natural, minimal",
+    "narration": {
+      "style": "Poetic",
+      "frequency": "low"
+    },
+    "music": {
+      "instruments": [
+        "guqin",
+        "xiao"
+      ],
+      "silence_ratio": 0.35
+    }
+  },
+  "prompt": {
+    "kling": [
+      {
+        "shot_id": "sh001",
+        "model": "kling",
+        "positive_prompt": "cinematic chinese poetic film, 鹅，鹅，鹅，曲项向天歌; song-dynasty ink documentary; 江南水岸, light mist, spring; Extreme Wide with 35mm, Static; morning light, soft warm, low contrast; composition negative space; emotion quiet wonder",
+        "negative_prompt": "modern objects, watermark, text, cyberpunk, oversaturated color, distorted anatomy",
+        "params": {
+          "aspect_ratio": "16:9",
+          "duration": 5,
+          "seed": 20260802
+        },
+        "warnings": []
+      },
+      {
+        "shot_id": "sh002",
+        "model": "kling",
+        "positive_prompt": "cinematic chinese poetic film, 白毛浮绿水，红掌拨清波; song-dynasty ink documentary; 江南水岸, light mist, spring; Wide with 50mm, Slow Push; morning light, soft warm, low contrast; composition negative space; emotion quiet wonder",
+        "negative_prompt": "modern objects, watermark, text, cyberpunk, oversaturated color, distorted anatomy",
+        "params": {
+          "aspect_ratio": "16:9",
+          "duration": 5,
+          "seed": 20260802
+        },
+        "warnings": []
+      }
+    ],
+    "cogvideo": [
+      {
+        "shot_id": "sh001",
+        "model": "cogvideo",
+        "positive_prompt": "documentary realism, chinese ink aesthetics, 鹅，鹅，鹅，曲项向天歌; song-dynasty ink documentary; 江南水岸, light mist, spring; Extreme Wide with 35mm, Static; morning light, soft warm, low contrast; composition negative space; emotion quiet wonder",
+        "negative_prompt": "modern objects, watermark, text, cyberpunk, oversaturated color, distorted anatomy",
+        "params": {
+          "aspect_ratio": "16:9",
+          "duration": 5,
+          "seed": 20260802
+        },
+        "warnings": []
+      },
+      {
+        "shot_id": "sh002",
+        "model": "cogvideo",
+        "positive_prompt": "documentary realism, chinese ink aesthetics, 白毛浮绿水，红掌拨清波; song-dynasty ink documentary; 江南水岸, light mist, spring; Wide with 50mm, Slow Push; morning light, soft warm, low contrast; composition negative space; emotion quiet wonder",
+        "negative_prompt": "modern objects, watermark, text, cyberpunk, oversaturated color, distorted anatomy",
+        "params": {
+          "aspect_ratio": "16:9",
+          "duration": 5,
+          "seed": 20260802
+        },
+        "warnings": []
+      }
+    ],
+    "wan": [
+      {
+        "shot_id": "sh001",
+        "model": "wan",
+        "positive_prompt": "natural textures, subtle motion, 鹅，鹅，鹅，曲项向天歌; song-dynasty ink documentary; 江南水岸, light mist, spring; Extreme Wide with 35mm, Static; morning light, soft warm, low contrast; composition negative space; emotion quiet wonder",
+        "negative_prompt": "modern objects, watermark, text, cyberpunk, oversaturated color, distorted anatomy",
+        "params": {
+          "aspect_ratio": "16:9",
+          "duration": 5,
+          "seed": 20260802
+        },
+        "warnings": []
+      },
+      {
+        "shot_id": "sh002",
+        "model": "wan",
+        "positive_prompt": "natural textures, subtle motion, 白毛浮绿水，红掌拨清波; song-dynasty ink documentary; 江南水岸, light mist, spring; Wide with 50mm, Slow Push; morning light, soft warm, low contrast; composition negative space; emotion quiet wonder",
+        "negative_prompt": "modern objects, watermark, text, cyberpunk, oversaturated color, distorted anatomy",
+        "params": {
+          "aspect_ratio": "16:9",
+          "duration": 5,
+          "seed": 20260802
+        },
+        "warnings": []
+      }
+    ],
+    "veo": [
+      {
+        "shot_id": "sh001",
+        "model": "veo",
+        "positive_prompt": "high fidelity cinematic video, 鹅，鹅，鹅，曲项向天歌; song-dynasty ink documentary; 江南水岸, light mist, spring; Extreme Wide with 35mm, Static; morning light, soft warm, low contrast; composition negative space; emotion quiet wonder",
+        "negative_prompt": "modern objects, watermark, text, cyberpunk, oversaturated color, distorted anatomy",
+        "params": {
+          "aspect_ratio": "16:9",
+          "duration": 5,
+          "seed": 20260802
+        },
+        "warnings": []
+      },
+      {
+        "shot_id": "sh002",
+        "model": "veo",
+        "positive_prompt": "high fidelity cinematic video, 白毛浮绿水，红掌拨清波; song-dynasty ink documentary; 江南水岸, light mist, spring; Wide with 50mm, Slow Push; morning light, soft warm, low contrast; composition negative space; emotion quiet wonder",
+        "negative_prompt": "modern objects, watermark, text, cyberpunk, oversaturated color, distorted anatomy",
+        "params": {
+          "aspect_ratio": "16:9",
+          "duration": 5,
+          "seed": 20260802
+        },
+        "warnings": []
+      }
+    ]
+  },
+  "qa": {
+    "schema_valid": true,
+    "continuity_valid": true,
+    "historical_risk_reported": true,
+    "warnings": []
+  },
+  "events": [
+    {
+      "event_id": "evt_000001",
+      "sequence": 1,
+      "timestamp": "2026-08-02T08:15:36+00:00",
+      "agent": "ExecutiveProducer",
+      "event_type": "ProjectCreated",
+      "payload": {
+        "title": "咏鹅"
+      }
+    },
+    {
+      "event_id": "evt_000002",
+      "sequence": 2,
+      "timestamp": "2026-08-02T08:15:36+00:00",
+      "agent": "Storyboard",
+      "event_type": "StoryboardCompleted",
+      "payload": {
+        "shot_count": 2
+      }
+    },
+    {
+      "event_id": "evt_000003",
+      "sequence": 3,
+      "timestamp": "2026-08-02T08:15:36+00:00",
+      "agent": "PromptCompiler",
+      "event_type": "PromptCompiled",
+      "payload": {
+        "targets": [
+          "kling",
+          "cogvideo",
+          "wan",
+          "veo"
+        ]
+      }
+    }
+  ]
+}

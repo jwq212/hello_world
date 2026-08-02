@@ -1,0 +1,18 @@
+{
+  "request": {
+    "title": "咏鹅",
+    "author": "骆宾王",
+    "dynasty": "唐",
+    "style": "Chinese Poetic Cinema",
+    "duration": 60,
+    "aspect_ratio": "16:9",
+    "output_models": ["kling", "cogvideo", "wan", "veo"]
+  },
+  "poem": {
+    "title": "咏鹅",
+    "author": "骆宾王",
+    "dynasty": "唐",
+    "content": "鹅，鹅，鹅，曲项向天歌。白毛浮绿水，红掌拨清波。",
+    "keywords": ["鹅", "水", "童趣", "观察"]
+  }
+}

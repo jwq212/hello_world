@@ -1,0 +1,53 @@
+
+
+### Shot 1 (sh001)
+Prompt:
+documentary realism, chinese ink aesthetics, 鹅，鹅，鹅，曲项向天歌; 唐 dynasty ink documentary; 江南水乡, light mist, autumn; Extreme Wide with 35mm, Static; morning light, soft warm, low contrast; composition negative space; emotion quiet wonder
+
+Negative Prompt:
+modern objects, watermark, text, cyberpunk, oversaturated color, distorted anatomy
+
+Aspect Ratio:
+16:9
+
+Duration (s):
+8
+
+Resolution:
+1360x768
+
+FPS:
+24
+
+Seed:
+1987566328
+
+Motion Strength:
+0.08
+
+---
+
+### Shot 2 (sh002)
+Prompt:
+documentary realism, chinese ink aesthetics, 白毛浮绿水，红掌拨清波; 唐 dynasty ink documentary; 江南水乡, light mist, autumn; Wide with 50mm, Slow Push; morning light, soft warm, low contrast; composition negative space; emotion quiet wonder
+
+Negative Prompt:
+modern objects, watermark, text, cyberpunk, oversaturated color, distorted anatomy
+
+Aspect Ratio:
+16:9
+
+Duration (s):
+8
+
+Resolution:
+1360x768
+
+FPS:
+24
+
+Seed:
+1165498575
+
+Motion Strength:
+0.2

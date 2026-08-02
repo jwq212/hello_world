@@ -1,0 +1,53 @@
+{
+  "version": "1.0.0",
+  "defaults": {
+    "fps": 24,
+    "seed_base": 20260802,
+    "max_motion_strength": 0.45,
+    "motion_map": {
+      "Static": 0.1,
+      "Slow Push": 0.25,
+      "Slow Pull": 0.25,
+      "Slow Pan": 0.28,
+      "Slow Tilt": 0.28,
+      "Gentle Tracking": 0.35
+    }
+  },
+  "models": {
+    "kling": {
+      "aspect_ratios": ["16:9", "9:16", "1:1"],
+      "duration": {"min": 3, "max": 10, "default": 5},
+      "resolution": "1920x1080",
+      "negative_prompt": true,
+      "camera_motion_sensitivity": 0.85
+    },
+    "cogvideo": {
+      "aspect_ratios": ["16:9", "1:1"],
+      "duration": {"min": 2, "max": 8, "default": 4},
+      "resolution": "1360x768",
+      "negative_prompt": true,
+      "camera_motion_sensitivity": 0.8
+    },
+    "cogvideox": {
+      "aspect_ratios": ["16:9", "1:1"],
+      "duration": {"min": 2, "max": 8, "default": 4},
+      "resolution": "1360x768",
+      "negative_prompt": true,
+      "camera_motion_sensitivity": 0.8
+    },
+    "wan": {
+      "aspect_ratios": ["16:9", "9:16"],
+      "duration": {"min": 3, "max": 8, "default": 5},
+      "resolution": "1280x720",
+      "negative_prompt": true,
+      "camera_motion_sensitivity": 0.75
+    },
+    "veo": {
+      "aspect_ratios": ["16:9", "9:16", "1:1", "4:3"],
+      "duration": {"min": 3, "max": 12, "default": 6},
+      "resolution": "1920x1080",
+      "negative_prompt": false,
+      "camera_motion_sensitivity": 0.9
+    }
+  }
+}

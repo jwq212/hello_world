@@ -1,0 +1,12 @@
+{
+  "project_id": "ic-咏鹅",
+  "generated_at": "2026-08-02T08:23:22+00:00",
+  "files": [
+    "project.json",
+    "research.json",
+    "storyboard.json",
+    "storyboard.csv",
+    "qa_report.json",
+    "prompts/"
+  ]
+}

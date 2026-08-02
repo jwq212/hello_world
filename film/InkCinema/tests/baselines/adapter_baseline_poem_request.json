@@ -1,0 +1,41 @@
+{
+  "expected_models": ["kling", "cogvideo", "wan", "veo"],
+  "first_shot": {
+    "kling": {
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "fps": 24,
+      "resolution": "1920x1080",
+      "seed": 61549315,
+      "motion_strength": 0.085,
+      "negative_prompt_empty": false
+    },
+    "cogvideo": {
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "fps": 24,
+      "resolution": "1360x768",
+      "seed": 2101944205,
+      "motion_strength": 0.08,
+      "negative_prompt_empty": false
+    },
+    "wan": {
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "fps": 24,
+      "resolution": "1280x720",
+      "seed": 1240207638,
+      "motion_strength": 0.075,
+      "negative_prompt_empty": false
+    },
+    "veo": {
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "fps": 24,
+      "resolution": "1920x1080",
+      "seed": 268222007,
+      "motion_strength": 0.09,
+      "negative_prompt_empty": true
+    }
+  }
+}

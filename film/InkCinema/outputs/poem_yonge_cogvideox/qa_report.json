@@ -1,0 +1,28 @@
+{
+  "overall_score": 99.8,
+  "checks": {
+    "continuity": {
+      "score": 100,
+      "warnings": []
+    },
+    "dynasty_consistency": {
+      "score": 99.5,
+      "warnings": []
+    },
+    "shot_rhythm": {
+      "score": 100,
+      "warnings": [],
+      "stats": {
+        "avg": 8.0,
+        "std": 0.0,
+        "target_avg": 8.0
+      }
+    },
+    "color_drift": {
+      "score": 100,
+      "warnings": []
+    }
+  },
+  "pass": true,
+  "warnings": []
+}
