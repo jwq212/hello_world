@@ -1,0 +1,2 @@
+file 'C:/Users/jcs1szh/Desktop/AI Agent Traning/InkCinema/outputs/poem_yonge_cogvideox/renders/sh001.mp4'
+file 'C:/Users/jcs1szh/Desktop/AI Agent Traning/InkCinema/outputs/poem_yonge_cogvideox/renders/sh002.mp4'

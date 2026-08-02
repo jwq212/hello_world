@@ -97,6 +97,31 @@ This creates:
 - `outputs/poem_yonge_cogvideox/cogvideox_web_form_shots/shot_001_sh001.txt`
 - `outputs/poem_yonge_cogvideox/cogvideox_web_form_shots/shot_002_sh002.txt`
 
+7) Post-production: merge clips + add subtitles + add narration
+
+Install required tools first:
+
+```powershell
+pip install edge-tts
+```
+
+Prepare generated shot videos in order (example names):
+
+- `outputs/poem_yonge_cogvideox/renders/sh001.mp4`
+- `outputs/poem_yonge_cogvideox/renders/sh002.mp4`
+
+Run one command to concatenate, generate SRT from storyboard, create TTS narration, and burn subtitles:
+
+```powershell
+python scripts/assemble_poem_video.py --storyboard outputs/poem_yonge_cogvideox/storyboard.json --clips outputs/poem_yonge_cogvideox/renders/sh001.mp4 outputs/poem_yonge_cogvideox/renders/sh002.mp4 --tts --output outputs/poem_yonge_cogvideox/final_poem_video.mp4
+```
+
+If you already have your own narration audio file:
+
+```powershell
+python scripts/assemble_poem_video.py --storyboard outputs/poem_yonge_cogvideox/storyboard.json --clips outputs/poem_yonge_cogvideox/renders/sh001.mp4 outputs/poem_yonge_cogvideox/renders/sh002.mp4 --narration-audio outputs/poem_yonge_cogvideox/narration.mp3 --output outputs/poem_yonge_cogvideox/final_poem_video.mp4
+```
+
 ---
 
 # Current Implementation Status
