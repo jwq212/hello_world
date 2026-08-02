@@ -1,0 +1,16 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^\\$env:PATH = \"\\$env:LOCALAPPDATA\\\\Microsoft\\\\WinGet\\\\Links;\" \\+ \\$env:PATH; \\$story = Get-Content outputs/poem_yonge_cogvideox/storyboard\\.json -Raw \\| ConvertFrom-Json; \\$work = 'outputs/poem_yonge_cogvideox/\\.narr_sync'; New-Item -ItemType Directory -Path \\$work -Force \\| Out-Null; Add-Type -AssemblyName System\\.Speech; \\$fixed = @\\(\\); for\\(\\$i=0; \\$i -lt \\$story\\.shots\\.Count; \\$i\\+\\+\\)\\{ \\$idx = \\$i \\+ 1; \\$shot = \\$story\\.shots\\[\\$i\\]; \\$raw = Join-Path \\$work \\(\"raw_\\{0:d3\\}\\.wav\" -f \\$idx\\); \\$syn = New-Object System\\.Speech\\.Synthesis\\.SpeechSynthesizer; \\$syn\\.SelectVoice\\('Microsoft Huihui Desktop'\\); \\$syn\\.Rate = -2; \\$syn\\.Volume = 95; \\$syn\\.SetOutputToWaveFile\\(\\$raw\\); \\$syn\\.Speak\\(\\[string\\]\\$shot\\.description\\); \\$syn\\.Dispose\\(\\); \\$dur = \\[double\\]\\$shot\\.duration; \\$fix = Join-Path \\$work \\(\"fixed_\\{0:d3\\}\\.wav\" -f \\$idx\\); ffmpeg -y -i \\$raw -af \"apad=pad_dur=\\$dur,atrim=0:\\$dur\" -ar 44100 -ac 2 \\$fix \\| Out-Null; \\$fixed \\+= \\$fix \\}; \\$concat = Join-Path \\$work 'concat_audio\\.txt'; \\$fixed \\| ForEach-Object \\{ \"file '\\$\\(\\$_\\.Replace\\('\\\\\\\\','/'\\)\\)'\" \\} \\| Set-Content -Path \\$concat -Encoding UTF8; \\$out = 'outputs/poem_yonge_cogvideox/narration_synced\\.wav'; ffmpeg -y -f concat -safe 0 -i \\$concat -c copy \\$out \\| Out-Null; Write-Output \\$out$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^Get-Item outputs/poem_yonge_cogvideox/renders/sh001\\.mp4, outputs/poem_yonge_cogvideox/renders/sh002\\.mp4 \\| Select-Object Name,Length,LastWriteTime$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^\\$env:PATH = \"\\$env:LOCALAPPDATA\\\\Microsoft\\\\WinGet\\\\Links;\" \\+ \\$env:PATH; \\$work = 'outputs/poem_yonge_cogvideox/\\.narr_sync'; \\$fixed = Get-ChildItem \\$work -Filter 'fixed_\\*\\.wav' \\| Sort-Object Name; \\$concat = Join-Path \\$work 'concat_audio\\.txt'; \\$lines = \\$fixed \\| ForEach-Object \\{ \"file '\\$\\(\\$_\\.FullName\\.Replace\\('\\\\\\\\','/'\\)\\)'\" \\}; \\[System\\.IO\\.File\\]::WriteAllLines\\(\\(Resolve-Path \\$concat\\), \\$lines, \\(New-Object System\\.Text\\.UTF8Encoding\\(\\$false\\)\\)\\); ffmpeg -y -f concat -safe 0 -i \\$concat -c copy outputs/poem_yonge_cogvideox/narration_synced\\.wav$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}

@@ -1,0 +1,2 @@
+file 'C:\Users\jcs1szh\Desktop\AI Agent Traning\InkCinema\outputs\poem_yonge_cogvideox\.narr_sync\fixed_001.wav'
+file 'C:\Users\jcs1szh\Desktop\AI Agent Traning\InkCinema\outputs\poem_yonge_cogvideox\.narr_sync\fixed_002.wav'
