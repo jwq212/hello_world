@@ -1,0 +1,4 @@
+file 'C:/Users/jcs1szh/Desktop/AI Agent Traning/InkCinema/outputs/poem_jingyesi_seedance/.final_jingyesi_narration_tmp/clip_001.mp4'
+file 'C:/Users/jcs1szh/Desktop/AI Agent Traning/InkCinema/outputs/poem_jingyesi_seedance/.final_jingyesi_narration_tmp/clip_002.mp4'
+file 'C:/Users/jcs1szh/Desktop/AI Agent Traning/InkCinema/outputs/poem_jingyesi_seedance/.final_jingyesi_narration_tmp/clip_003.mp4'
+file 'C:/Users/jcs1szh/Desktop/AI Agent Traning/InkCinema/outputs/poem_jingyesi_seedance/.final_jingyesi_narration_tmp/clip_004.mp4'
