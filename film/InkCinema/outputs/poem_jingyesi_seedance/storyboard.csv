@@ -1,0 +1,5 @@
+shot_id,scene_id,beat_id,duration,description,shot_type,lens,motion
+sh001,sc01,bt01,8,床前明月光,Extreme Wide,35mm,Static
+sh002,sc01,bt01,8,疑是地上霜,Wide,50mm,Slow Push
+sh003,sc02,bt02,8,举头望明月,Medium,85mm,Slow Pan
+sh004,sc02,bt02,8,低头思故乡,Close Up,35mm,Slow Tilt

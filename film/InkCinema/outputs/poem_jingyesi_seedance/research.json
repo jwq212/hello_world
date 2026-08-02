@@ -1,0 +1,74 @@
+{
+  "resolved_dynasty": "唐",
+  "historical_background": "以唐代社会文化语境为主，强调自然观察与含蓄抒情。",
+  "author_profile": {
+    "name": "李白",
+    "confidence": 0.65
+  },
+  "dynasty_profile": {
+    "dynasty": "唐",
+    "period": "618-907",
+    "architecture": [
+      "木构建筑",
+      "歇山顶",
+      "抬梁式",
+      "瓦当纹饰简洁"
+    ],
+    "costume": [
+      "圆领袍",
+      "襦裙",
+      "披帛",
+      "儿童服饰偏素色"
+    ],
+    "color_preferences": [
+      "赭石",
+      "绢白",
+      "黛青",
+      "朱砂点缀"
+    ],
+    "music": [
+      "古琴",
+      "箫",
+      "埙"
+    ]
+  },
+  "geography": [
+    "江南水乡",
+    "驿道",
+    "书院",
+    "山寺"
+  ],
+  "plants": [
+    "柳",
+    "梅",
+    "竹",
+    "芦苇"
+  ],
+  "animals": [
+    "鹅",
+    "鹤",
+    "马"
+  ],
+  "references": [
+    {
+      "source": "knowledge/dynasty_knowledge.json",
+      "type": "dynasty_profile",
+      "dynasty": "唐",
+      "signals": [
+        "request_dynasty",
+        "author_match"
+      ]
+    }
+  ],
+  "confidence": {
+    "score": 0.98,
+    "signals": [
+      "request_dynasty",
+      "author_match"
+    ],
+    "all_scores": {
+      "唐": 0.85,
+      "宋": 0.04
+    }
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "total_duration": 32,
+  "total_shots": 4,
+  "shots": [
+    {
+      "shot_id": "sh001",
+      "scene_id": "sc01",
+      "beat_id": "bt01",
+      "title": "镜头 1",
+      "purpose": "将诗句意象转化为可观察的画面",
+      "duration": 8,
+      "description": "床前明月光",
+      "camera": {
+        "shot_type": "Extreme Wide",
+        "lens": "35mm",
+        "height": "eye level",
+        "angle": "natural",
+        "motion": "Static"
+      },
+      "lighting": {
+        "time": "night",
+        "temperature": "moon cool",
+        "contrast": "low"
+      },
+      "environment": {
+        "location": "江南水乡",
+        "weather": "light mist",
+        "season": "autumn"
+      },
+      "composition": "negative space",
+      "emotion": "quiet wonder",
+      "continuity_notes": [
+        "角色服饰一致",
+        "雾气密度轻微变化"
+      ],
+      "visual_constraints": [
+        "避免现代物件",
+        "避免夸张动作"
+      ],
+      "priority": "normal"
+    },
+    {
+      "shot_id": "sh002",
+      "scene_id": "sc01",
+      "beat_id": "bt01",
+      "title": "镜头 2",
+      "purpose": "将诗句意象转化为可观察的画面",
+      "duration": 8,
+      "description": "疑是地上霜",
+      "camera": {
+        "shot_type": "Wide",
+        "lens": "50mm",
+        "height": "eye level",
+        "angle": "natural",
+        "motion": "Slow Push"
+      },
+      "lighting": {
+        "time": "night",
+        "temperature": "moon cool",
+        "contrast": "low"
+      },
+      "environment": {
+        "location": "江南水乡",
+        "weather": "light mist",
+        "season": "autumn"
+      },
+      "composition": "negative space",
+      "emotion": "quiet wonder",
+      "continuity_notes": [
+        "角色服饰一致",
+        "雾气密度轻微变化"
+      ],
+      "visual_constraints": [
+        "避免现代物件",
+        "避免夸张动作"
+      ],
+      "priority": "normal"
+    },
+    {
+      "shot_id": "sh003",
+      "scene_id": "sc02",
+      "beat_id": "bt02",
+      "title": "镜头 3",
+      "purpose": "将诗句意象转化为可观察的画面",
+      "duration": 8,
+      "description": "举头望明月",
+      "camera": {
+        "shot_type": "Medium",
+        "lens": "85mm",
+        "height": "eye level",
+        "angle": "natural",
+        "motion": "Slow Pan"
+      },
+      "lighting": {
+        "time": "night",
+        "temperature": "moon cool",
+        "contrast": "low"
+      },
+      "environment": {
+        "location": "江南水乡",
+        "weather": "light mist",
+        "season": "autumn"
+      },
+      "composition": "negative space",
+      "emotion": "quiet wonder",
+      "continuity_notes": [
+        "角色服饰一致",
+        "雾气密度轻微变化"
+      ],
+      "visual_constraints": [
+        "避免现代物件",
+        "避免夸张动作"
+      ],
+      "priority": "normal"
+    },
+    {
+      "shot_id": "sh004",
+      "scene_id": "sc02",
+      "beat_id": "bt02",
+      "title": "镜头 4",
+      "purpose": "将诗句意象转化为可观察的画面",
+      "duration": 8,
+      "description": "低头思故乡",
+      "camera": {
+        "shot_type": "Close Up",
+        "lens": "35mm",
+        "height": "eye level",
+        "angle": "natural",
+        "motion": "Slow Tilt"
+      },
+      "lighting": {
+        "time": "night",
+        "temperature": "moon cool",
+        "contrast": "low"
+      },
+      "environment": {
+        "location": "江南水乡",
+        "weather": "light mist",
+        "season": "autumn"
+      },
+      "composition": "negative space",
+      "emotion": "quiet wonder",
+      "continuity_notes": [
+        "角色服饰一致",
+        "雾气密度轻微变化"
+      ],
+      "visual_constraints": [
+        "避免现代物件",
+        "避免夸张动作"
+      ],
+      "priority": "normal"
+    }
+  ],
+  "confidence": 0.98
+}

@@ -1,0 +1,12 @@
+{
+  "project_id": "ic-静夜思",
+  "generated_at": "2026-08-02T14:19:20+00:00",
+  "files": [
+    "project.json",
+    "research.json",
+    "storyboard.json",
+    "storyboard.csv",
+    "qa_report.json",
+    "prompts/"
+  ]
+}

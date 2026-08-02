@@ -1,0 +1,20 @@
+{
+  "request": {
+    "title": "静夜思",
+    "author": "李白",
+    "dynasty": "唐",
+    "style": "Chinese Poetic Cinema",
+    "duration": 32,
+    "aspect_ratio": "16:9",
+    "resolution": "1920x1080",
+    "output_models": ["seedance"],
+    "target_platform": "web"
+  },
+  "poem": {
+    "title": "静夜思",
+    "author": "李白",
+    "dynasty": "唐",
+    "content": "床前明月光\n疑是地上霜\n举头望明月\n低头思故乡",
+    "keywords": ["月", "夜", "乡愁", "静思"]
+  }
+}
